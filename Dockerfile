@@ -17,7 +17,7 @@ apt-get -y autoremove ; \
 apt-get clean ; \
 rm -Rf /var/lib/apt/lists/*
 
-RUN wget http://mirror.xivo.io/fai/xivo-migration/xivo_install_current.sh \
+RUN wget http://mirror.xivo.io/fai/xivo-migration/xivo_install_current.sh; \
 bash xivo_install_current.sh
 
 CMD ["/bin/bash"]
