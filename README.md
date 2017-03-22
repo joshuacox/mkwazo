@@ -1,2 +1,2 @@
-# mkxivo
-Make an XIVO container PDQ
+# mkwazo
+Make a WAZO container PDQ
